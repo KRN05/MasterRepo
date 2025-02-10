@@ -72,7 +72,7 @@ class LFUCacheWithGenerics<K, V> {
 }
 
 // Example Usage
-class Main {
+class LFUCacheWithGenericsMain {
     public static void main(String[] args) {
         LFUCacheWithGenerics<String, String> cache = new LFUCacheWithGenerics<>(2);
         cache.put("one", "first");

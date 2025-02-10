@@ -70,7 +70,7 @@ class LFUCache {
 }
 
 // Example Usage
-class Main {
+class LFUCacheMain {
     public static void main(String[] args) {
         LFUCache cache = new LFUCache(2);
         cache.put(1, 1);
